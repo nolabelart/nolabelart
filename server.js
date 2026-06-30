@@ -28,8 +28,8 @@ app.post("/create-checkout", async (req, res) => {
     line_items,
     mode: "payment",
     
-success_url: "http://localhost:5173/success",
-cancel_url: "http://localhost:5173"
+success_url: "https://nolabelart1.vercel.app/success",
+cancel_url: "https://nolabelart1.vercel.app/"
 
   });
 

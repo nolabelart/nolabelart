@@ -86,6 +86,8 @@ if (isSuccessPage) {
 
       {/* PRODUCTS */}
       <section className="products">
+      <h2 className="section-title">Posters</h2>
+
         <div className="grid">
           {filteredProducts.map((p) => (
             <div
